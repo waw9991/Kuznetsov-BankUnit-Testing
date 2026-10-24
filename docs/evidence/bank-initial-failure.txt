@@ -1,0 +1,20 @@
+  Определение проектов для восстановления...
+  Восстановлен C:\Users\91946\OneDrive\Desktop\берестов очкун\Practice1-Kuznetsov-Bank\Bank\Bank.csproj (за 13,92 с).
+  Восстановлен C:\Users\91946\OneDrive\Desktop\берестов очкун\Practice1-Kuznetsov-Bank\BankTests\BankTests.csproj (за 22,87 с).
+  Bank -> C:\Users\91946\OneDrive\Desktop\берестов очкун\Practice1-Kuznetsov-Bank\Bank\bin\Release\net8.0\Bank.dll
+CSC : warning MSTEST0001: Явное включение или отключение параллелизации тестов (https://learn.microsoft.com/dotnet/core/testing/mstest-analyzers/mstest0001) [C:\Users\91946\OneDrive\Desktop\берестов очкун\Practice1-Kuznetsov-Bank\BankTests\BankTests.csproj]
+  BankTests -> C:\Users\91946\OneDrive\Desktop\берестов очкун\Practice1-Kuznetsov-Bank\BankTests\bin\Release\net8.0\BankTests.dll
+Тестовый запуск для C:\Users\91946\OneDrive\Desktop\берестов очкун\Practice1-Kuznetsov-Bank\BankTests\bin\Release\net8.0\BankTests.dll (.NETCoreApp,Version=v8.0)
+Общее количество тестовых файлов (1), соответствующих указанному шаблону.
+  Не пройден Debit_WithValidAmount_UpdatesBalance [157 ms]
+  Сообщение об ошибке:
+   Сбой Assert.AreEqual. Между ожидаемым значением <1374,5> и фактическим значением <2225,5> требуется разница не более чем <0,001>. Выражение "expected": "expected", выражение "actual": "account.Balance". Account not debited correctly
+  Трассировка стека:
+     at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertAreEqualFailed[T](T expected, T actual, T delta, String userMessage) in /_/src/TestFramework/TestFramework/Assertions/Assert.AreEqual.cs:line 679
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(Double expected, Double actual, Double delta, String message, String expectedExpression, String actualExpression) in /_/src/TestFramework/TestFramework/Assertions/Assert.AreEqual.cs:line 1149
+   at BankTests.BankAccountTests.Debit_WithValidAmount_UpdatesBalance() in C:\Users\91946\OneDrive\Desktop\берестов очкун\Practice1-Kuznetsov-Bank\BankTests\BankAccountTests.cs:line 22
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+Файл результатов: C:\Users\91946\OneDrive\Desktop\берестов очкун\Practice1-Kuznetsov-Bank\docs\evidence\bank-initial-failure.trx
+
+Не пройден!: не пройдено     1, пройдено     0, пропущено     0, всего     1, длительность 190 ms. - BankTests.dll (net8.0)

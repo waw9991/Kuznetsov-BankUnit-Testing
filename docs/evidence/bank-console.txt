@@ -1,0 +1,2 @@
+Customer: Andrey Kuznetsov
+Current balance: 1624,50

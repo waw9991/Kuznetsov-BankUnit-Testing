@@ -1,0 +1,5 @@
+Тестовый запуск для C:\Users\91946\OneDrive\Desktop\берестов очкун\Practice1-Kuznetsov-Bank\BankTests\bin\Release\net8.0\BankTests.dll (.NETCoreApp,Version=v8.0)
+Общее количество тестовых файлов (1), соответствующих указанному шаблону.
+Файл результатов: C:\Users\91946\OneDrive\Desktop\берестов очкун\Practice1-Kuznetsov-Bank\docs\evidence\bank-final.trx
+
+Пройден!   : не пройдено     0, пройдено     3, пропущено     0, всего     3, длительность 158 ms. - BankTests.dll (net8.0)

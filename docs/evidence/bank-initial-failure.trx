@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="90d1895c-610a-4397-8329-adddd01a4637" name="91946@WIN-HJ9L1L4Q1L7 2026-10-24 20:39:45" runUser="WIN-HJ9L1L4Q1L7\91946" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-24T20:39:45.3317483+05:00" queuing="2026-10-24T20:39:45.3317489+05:00" start="2026-10-24T20:39:41.9498715+05:00" finish="2026-10-24T20:39:45.3593853+05:00" />
+  <TestSettings name="default" id="4065ac22-2e40-4d0d-b10f-2298af661972">
+    <Deployment runDeploymentRoot="91946_WIN-HJ9L1L4Q1L7_2026-10-24_20_39_45" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a42eaffa-2c86-476d-8d7e-9214f027852d" testId="101ac4c2-ff39-8907-a903-54e185dc6c99" testName="Debit_WithValidAmount_UpdatesBalance" computerName="WIN-HJ9L1L4Q1L7" duration="00:00:00.1570433" startTime="2026-10-24T20:39:44.8232550+05:00" endTime="2026-10-24T20:39:45.0135001+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a42eaffa-2c86-476d-8d7e-9214f027852d">
+      <Output>
+        <ErrorInfo>
+          <Message>Сбой Assert.AreEqual. Между ожидаемым значением &lt;1374,5&gt; и фактическим значением &lt;2225,5&gt; требуется разница не более чем &lt;0,001&gt;. Выражение "expected": "expected", выражение "actual": "account.Balance". Account not debited correctly</Message>
+          <StackTrace>   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowAssertAreEqualFailed[T](T expected, T actual, T delta, String userMessage) in /_/src/TestFramework/TestFramework/Assertions/Assert.AreEqual.cs:line 679&#xD;
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(Double expected, Double actual, Double delta, String message, String expectedExpression, String actualExpression) in /_/src/TestFramework/TestFramework/Assertions/Assert.AreEqual.cs:line 1149&#xD;
+   at BankTests.BankAccountTests.Debit_WithValidAmount_UpdatesBalance() in C:\Users\91946\OneDrive\Desktop\берестов очкун\Practice1-Kuznetsov-Bank\BankTests\BankAccountTests.cs:line 22&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Debit_WithValidAmount_UpdatesBalance" storage="c:\users\91946\onedrive\desktop\берестов очкун\practice1-kuznetsov-bank\banktests\bin\release\net8.0\banktests.dll" id="101ac4c2-ff39-8907-a903-54e185dc6c99">
+      <Execution id="a42eaffa-2c86-476d-8d7e-9214f027852d" />
+      <TestMethod codeBase="C:\Users\91946\OneDrive\Desktop\берестов очкун\Practice1-Kuznetsov-Bank\BankTests\bin\Release\net8.0\BankTests.dll" adapterTypeName="executor://mstestadapter/v4" className="BankTests.BankAccountTests" name="Debit_WithValidAmount_UpdatesBalance" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="101ac4c2-ff39-8907-a903-54e185dc6c99" executionId="a42eaffa-2c86-476d-8d7e-9214f027852d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Список результатов" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" passed="0" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
