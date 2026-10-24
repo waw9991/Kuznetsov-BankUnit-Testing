@@ -1,8 +1,0 @@
-  Bank -> C:\Users\91946\OneDrive\Desktop\берестов очкун\Practice1-Kuznetsov-Bank\Bank\bin\Release\net8.0\Bank.dll
-  BankTests -> C:\Users\91946\OneDrive\Desktop\берестов очкун\Practice1-Kuznetsov-Bank\BankTests\bin\Release\net8.0\BankTests.dll
-
-Сборка успешно завершена.
-    Предупреждений: 0
-    Ошибок: 0
-
-Прошло времени 00:00:02.31
